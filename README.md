@@ -17,7 +17,7 @@ UE4のThirdPersonサンプルに、UEDirectInputPluginを入れたプロジェ�
 UE4.11
 
 # ライセンス
-DirectInputPadの部分：The MIT License (MIT)
+DirectInputPadの部分：The MIT License (MIT)  
 それ以外のThirdPersonサンプルの部分は、UnrealEngineのライセンスに従ってください
 
 # 連絡先
