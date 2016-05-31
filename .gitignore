@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+.vs
+*.db
+Intermediate/
+Saved/
+Binaries/
+Developer/
+Plugins/*/Intermediate/
+Plugins/*/Binaries/

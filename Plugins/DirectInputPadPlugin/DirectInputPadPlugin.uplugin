@@ -1,0 +1,22 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "DirectInputPad Plugin",
+	"Version" : 0.8,
+	"VersionName" : "0.8",
+	"CreatedBy" : "katze7514",
+	"CreatedByURL" : "https://github.com/katze7514/UEDirectInputPadPlugin",
+	"EngineVersion" : "4.11.0",
+	"Description" : "Plugin for DirectInputPad.",
+	"Category" : "Input Devices",
+	
+	"Modules" :
+	[
+		{
+			"Name" : "DirectInputPadPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault",
+			"WhitelistPlatforms" : ["Win64", "Win32"]
+		}
+	]
+}
