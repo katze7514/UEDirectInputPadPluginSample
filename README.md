@@ -13,12 +13,8 @@ UE4のThirdPersonサンプルに、UEDirectInputPluginを入れたプロジェ�
 
 他にも欲しいサンプルがありましたら、下記の連絡先までどうぞ。
 
-# 注意点
-PS4のコントローラをDirectInput動作させている場合、パッドコンフィグがちゃんと動作していません。  
-対応方法を考え中です
-
 # 対応Ver
-UE4.11以上
+UE4.12以上
 
 # ライセンス
 DirectInputPadの部分：The MIT License (MIT)  
