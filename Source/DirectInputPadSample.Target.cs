@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class DirectInputPadSampleTarget : TargetRules
 {
-	public DirectInputPadSampleTarget(TargetInfo Target)
+	public DirectInputPadSampleTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 	}
@@ -20,6 +20,6 @@ public class DirectInputPadSampleTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "DirectInputPadSample" } );
+		OutExtraModuleNames.Add("DirectInputPadSample" );
 	}
 }

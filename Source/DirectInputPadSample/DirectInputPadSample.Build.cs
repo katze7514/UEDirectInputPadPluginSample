@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class DirectInputPadSample : ModuleRules
 {
-	public DirectInputPadSample(TargetInfo Target)
+	public DirectInputPadSample(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
